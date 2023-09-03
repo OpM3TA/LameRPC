@@ -3,10 +3,6 @@ import requests
 from requests.auth import HTTPBasicAuth   
 import pprint
 
-#rpc_user='escrow'
-#rpc_password='password'
-#url = "http://127.0.0.1:19991"
-
 
 """
 JSONRPC Client class meant for communicating with Electrum.
@@ -47,7 +43,7 @@ class JSONRPC_CLIENT:
 
         """
         Headers required for electrums jsonrpc
-        No reason to ever modify.
+        No reason to ever modify(probably).
         Same for the..um..whatever tf the rest is for the rpc request.
         """
         RPC_HEADERS = {'content-type': "application/json", 'cache-control': "no-cache"}
