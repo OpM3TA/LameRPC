@@ -23,6 +23,7 @@ GetRPCPassword
 ValidateAddress
 
 Anything other than those will need to be construction from RPCMSG or whatever, but its basic 
-and just commands with params.
+and just commands with params and its what is behind the scenes of the previous commands
+so just look at them as a reference for doing more or something.
 """
 
