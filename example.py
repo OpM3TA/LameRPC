@@ -1,8 +1,3 @@
-# Example use of the lame ass rpc shit I cobbled together.
-import json
-import requests 
-from requests.auth import HTTPBasicAuth   
-import pprint
 from rpc_service import *
 
 
